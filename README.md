@@ -1,5 +1,5 @@
 ## Ports
 
-localhost:443 (website)
-localhost:8443 (phpmyadmin)
+* localhost:443 (website)
+* localhost:8443 (phpmyadmin)
 
