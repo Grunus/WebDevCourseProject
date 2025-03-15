@@ -1,7 +1,13 @@
 <?php
 
-$text = "text";
+require '../Entity/User.php';
+use Entity\User;
 
-$argument = "$text";
+$user = new User();
+$user->setId(1)
+    ->setName('Andrew')
+    ->setEmail('andrew@andrew.com')
+    ->setPassword('secretPassword');
 
-print_r($argument);
+
+echo $user->jsonSerialize();
