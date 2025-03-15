@@ -1,3 +1,7 @@
 <?php
 
-echo "Hello everybody with fresh, very fresh new title!!!";
+$text = "text";
+
+$argument = "$text";
+
+print_r($argument);
